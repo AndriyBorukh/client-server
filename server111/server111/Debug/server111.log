@@ -1,0 +1,17 @@
+﻿Построение начато 01.11.2016 16:43:11.
+     1>Проект "C:\Users\Андрей\Documents\Visual Studio 2012\Projects\server111\server111\server111.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\андрей\documents\visual studio 2012\projects\server111\server111\skel.h(16): warning C4005: EMSGSIZE: изменение макроопределения
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\errno.h(107): см. предыдущее определение "EMSGSIZE"
+     1>c:\users\андрей\documents\visual studio 2012\projects\server111\server111\skel.h(22): warning C4005: errno: изменение макроопределения
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(239): см. предыдущее определение "errno"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Андрей\Documents\Visual Studio 2012\Projects\server111\Debug\server111.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Андрей\Documents\Visual Studio 2012\Projects\server111\Debug\server111.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Андрей\Documents\Visual Studio 2012\Projects\server111\Debug\server111.lib" /MACHINE:X86 Debug\main.obj
+         server111.vcxproj -> C:\Users\Андрей\Documents\Visual Studio 2012\Projects\server111\Debug\server111.exe
+     1>Построение проекта "C:\Users\Андрей\Documents\Visual Studio 2012\Projects\server111\server111\server111.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.11
