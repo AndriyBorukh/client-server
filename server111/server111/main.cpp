@@ -1,8 +1,8 @@
 #include <iostream>
-#include <string>
 
-#include <stdlib.h>
-#include "skel.h"
+#include <string>
+#include "etcp.h"
+
 #pragma comment (lib, "Ws2_32.lib")
 using namespace std;
 
@@ -15,8 +15,11 @@ using namespace std;
 // windows support
 #define MINBSDSOCKERR    ( WSAEWOULDBLOCK  )
 #define MAXBSDSOCKERR    ( MINBSDSOCKERR + \
-	                   
-
+                         ( sizeof( bsdsocketerrs ) / \
+						 sizeof( bsdsocketerrs [0] ) ) )
+extern int sys_nerr;
+//extern char * sys_errlist [] ;
+extern char * programname ;
 
 
 // windows support </>
@@ -28,6 +31,7 @@ int nclients=0;
 
 
 int main() {
+
 
 	struct sockaddr_in local;
 	int s;
